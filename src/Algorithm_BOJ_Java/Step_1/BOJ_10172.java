@@ -9,6 +9,5 @@ public class BOJ_10172 {
         System.out.println("( 0 )\"\"\"\\");
         System.out.println("|\"^\"`    |");
         System.out.println("||_/=\\\\__|");
-
     }
 }
