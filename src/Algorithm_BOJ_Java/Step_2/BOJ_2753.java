@@ -8,16 +8,13 @@ public class BOJ_2753 {
         Scanner scanner = new Scanner(System.in);
         int year = scanner.nextInt();
 
-        if(year>4000)
-        {
+        if(year>4000) {
             System.out.println("범위 밖입니다.");
         }
-        else if((year%4==0 && year%100!=0) || (year%4==0 && year%400==0))
-        {
+        else if((year%4==0 && year%100!=0) || (year%4==0 && year%400==0)) {
             System.out.println("1");
         }
-        else
-        {
+        else {
             System.out.println("0");
         }
     }

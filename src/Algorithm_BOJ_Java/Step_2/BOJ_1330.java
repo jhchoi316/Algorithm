@@ -9,20 +9,16 @@ public class BOJ_1330 {
         int A = scanner.nextInt();
         int B = scanner.nextInt();
 
-        if (-10000<=A && B<=10000 && A>B)
-        {
+        if (-10000<=A && B<=10000 && A>B) {
             System.out.println(">");
         }
-        else if (-10000<=A && B<=10000 && B>A)
-        {
+        else if (-10000<=A && B<=10000 && B>A) {
             System.out.println("<");
         }
-        else if (-10000<=A && B<=10000 && A==B)
-        {
+        else if (-10000<=A && B<=10000 && A==B) {
             System.out.println("==");
         }
-        else
-        {
+        else {
             System.out.println("범위 밖입니다.");
         }
     }

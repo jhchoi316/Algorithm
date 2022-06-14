@@ -8,24 +8,19 @@ public class BOJ_9498 {
         Scanner scanner = new Scanner(System.in);
         int grade = scanner.nextInt();
 
-        if (grade>=90 && grade<=100)
-        {
+        if (grade>=90 && grade<=100) {
             System.out.println("A");
         }
-        else if (grade>=80 && grade<90)
-        {
+        else if (grade>=80 && grade<90) {
             System.out.println("B");
         }
-        else if (grade>=70 && grade<80)
-        {
+        else if (grade>=70 && grade<80) {
             System.out.println("C");
         }
-        else if (grade>=60 && grade<70)
-        {
+        else if (grade>=60 && grade<70) {
             System.out.println("D");
         }
-        else
-        {
+        else {
             System.out.println("F");
         }
     }
